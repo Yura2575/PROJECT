@@ -30,9 +30,21 @@ h1, p, h2, ol, img{
    div{
     background-color: #141313;
 }  
-h1, p, h2, ol{
+h1, p, h2, ol, h3{
     color: #e2e3e0; 
 }
 *{
     margin: 0;
 }
+ .images{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #141313;
+    gap: 30px;
+    justify-content: center;
+  
+ }
+ .images li{
+    width: 400px;
+ }
+ 
